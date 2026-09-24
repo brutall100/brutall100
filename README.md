@@ -49,7 +49,7 @@ Eighteen years of CNC programming taught me to read the spec properly, debug pat
       <p><a href="https://github.com/brutall100/vinica-shop">Code</a></p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/brutall100/nuoga-siela"><img src="https://opengraph.githubassets.com/1/brutall100/nuoga-siela" width="100%" alt="nuoga-siela"></a>
+      <a href="https://github.com/brutall100/nuoga-siela"><img src="covers/nuoga-siela.webp" width="100%" alt="nuoga-siela"></a>
       <h3>nuoga-siela</h3>
       <p></p>
       <p><sub>TypeScript · JavaScript · HTML5 · CSS</sub></p>
