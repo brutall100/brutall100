@@ -42,27 +42,11 @@ Eighteen years of CNC programming taught me to read the spec properly, debug pat
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/brutall100/vinica-shop"><img src="covers/vinica-shop.webp" width="100%" alt="vinica-shop"></a>
-      <h3>vinica-shop</h3>
-      <p></p>
-      <p><sub>TypeScript · JavaScript · CSS</sub></p>
-      <p><a href="https://github.com/brutall100/vinica-shop">Code</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/brutall100/nuoga-siela"><img src="covers/nuoga-siela.webp" width="100%" alt="nuoga-siela"></a>
-      <h3>nuoga-siela</h3>
-      <p></p>
-      <p><sub>TypeScript · JavaScript · HTML5 · CSS</sub></p>
-      <p><a href="https://github.com/brutall100/nuoga-siela">Code</a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://brutall100.github.io/petpals-express-mongodb/"><img src="covers/petpals-express-mongodb.webp" width="100%" alt="petpals-express-mongodb"></a>
-      <h3>petpals-express-mongodb</h3>
-      <p>🐾 Cozy pet shelter app: Express + MongoDB REST API with full CRUD, live paw-trail background, light/dark themes and a browser demo mode.</p>
-      <p><sub>JavaScript · CSS · HTML5</sub></p>
-      <p><a href="https://brutall100.github.io/petpals-express-mongodb/">Live</a> · <a href="https://github.com/brutall100/petpals-express-mongodb">Code</a></p>
+      <a href="https://aldas-portfolio.site/"><img src="covers/aldas-portfolio.webp" width="100%" alt="aldas-portfolio"></a>
+      <h3>aldas-portfolio</h3>
+      <p>Mano portfolio puslapis. </p>
+      <p><sub>HTML5 · CSS · JavaScript</sub></p>
+      <p><a href="https://aldas-portfolio.site/">Live</a> · <a href="https://github.com/brutall100/aldas-portfolio">Code</a></p>
     </td>
     <td width="50%" valign="top">
       <a href="https://brutall100.github.io/petras-dovydaitis/"><img src="covers/petras-dovydaitis.webp" width="100%" alt="petras-dovydaitis"></a>
@@ -74,18 +58,34 @@ Eighteen years of CNC programming taught me to read the spec properly, debug pat
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/brutall100/WeekMenu"><img src="covers/WeekMenu.webp" width="100%" alt="WeekMenu"></a>
-      <h3>WeekMenu</h3>
-      <p></p>
-      <p><sub>TypeScript · JavaScript · Sass · CSS · HTML5</sub></p>
-      <p><a href="https://github.com/brutall100/WeekMenu">Code</a></p>
+      <a href="https://brutall100.github.io/petpals-express-mongodb/"><img src="covers/petpals-express-mongodb.webp" width="100%" alt="petpals-express-mongodb"></a>
+      <h3>petpals-express-mongodb</h3>
+      <p>🐾 Cozy pet shelter app: Express + MongoDB REST API with full CRUD, live paw-trail background, light/dark themes and a browser demo mode.</p>
+      <p><sub>JavaScript · CSS · HTML5</sub></p>
+      <p><a href="https://brutall100.github.io/petpals-express-mongodb/">Live</a> · <a href="https://github.com/brutall100/petpals-express-mongodb">Code</a></p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://aldas-portfolio.site/"><img src="covers/aldas-portfolio.webp" width="100%" alt="aldas-portfolio"></a>
-      <h3>aldas-portfolio</h3>
-      <p>Mano portfolio puslapis. </p>
-      <p><sub>HTML5 · CSS · JavaScript</sub></p>
-      <p><a href="https://aldas-portfolio.site/">Live</a> · <a href="https://github.com/brutall100/aldas-portfolio">Code</a></p>
+      <a href="https://brutall100.github.io/voting-system/"><img src="covers/voting-system.webp" width="100%" alt="voting-system"></a>
+      <h3>voting-system</h3>
+      <p>One person, one vote: a polling app where you can cast, change or withdraw your vote. Node.js + Express 5 + built-in SQLite, with a browser demo mode.</p>
+      <p><sub>JavaScript · CSS · HTML5</sub></p>
+      <p><a href="https://brutall100.github.io/voting-system/">Live</a> · <a href="https://github.com/brutall100/voting-system">Code</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://brutall100.github.io/scrimba-hometown-jonava/"><img src="covers/scrimba-hometown-jonava.webp" width="100%" alt="scrimba-hometown-jonava"></a>
+      <h3>scrimba-hometown-jonava</h3>
+      <p>One-page travel guide to Jonava, Lithuania — responsive landing page with light/dark themes and playful micro-interactions. Scrimba project.</p>
+      <p><sub>CSS · HTML5 · JavaScript</sub></p>
+      <p><a href="https://brutall100.github.io/scrimba-hometown-jonava/">Live</a> · <a href="https://github.com/brutall100/scrimba-hometown-jonava">Code</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://brutall100.github.io/scrimba-birthday-gift/"><img src="covers/scrimba-birthday-gift.webp" width="100%" alt="scrimba-birthday-gift"></a>
+      <h3>scrimba-birthday-gift</h3>
+      <p>Interactive birthday card — unwrap CSS-drawn gifts to reveal animated surprises and confetti. Scrimba practice project.</p>
+      <p><sub>CSS · HTML5 · JavaScript</sub></p>
+      <p><a href="https://brutall100.github.io/scrimba-birthday-gift/">Live</a> · <a href="https://github.com/brutall100/scrimba-birthday-gift">Code</a></p>
     </td>
   </tr>
 </table>
