@@ -72,6 +72,15 @@ Eighteen years of CNC programming taught me to read the spec properly, debug pat
       <p><a href="https://brutall100.github.io/scrimba-hometown-jonava/">Live</a> · <a href="https://github.com/brutall100/scrimba-hometown-jonava">Code</a></p>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://brutall100.github.io/scrimba-birthday-gift/"><img src="covers/scrimba-birthday-gift.webp" width="100%" alt="scrimba-birthday-gift"></a>
+      <h3>scrimba-birthday-gift</h3>
+      <p>Interactive birthday card — unwrap CSS-drawn gifts to reveal animated surprises and confetti. Scrimba practice project.</p>
+      <p><sub>CSS · HTML5 · JavaScript</sub></p>
+      <p><a href="https://brutall100.github.io/scrimba-birthday-gift/">Live</a> · <a href="https://github.com/brutall100/scrimba-birthday-gift">Code</a></p>
+    </td>
+  </tr>
 </table>
 <!-- PROJECTS:END -->
 
