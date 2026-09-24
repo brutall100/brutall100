@@ -3,7 +3,7 @@
 //
 //   node scripts/update-readme.mjs                  fetch from GitHub (needs GITHUB_TOKEN)
 //   node scripts/update-readme.mjs --data repos.json  use saved data instead (for testing)
-import { readFileSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 
 const config = JSON.parse(readFileSync("profile.config.json", "utf8"));
 
@@ -135,14 +135,14 @@ function coverImage(repo) {
   return `https://raw.githubusercontent.com/${owner}/${name}/${branch}/${encodeURI(decodeURI(path))}`;
 }
 
-function card(repo) {
+function card(repo, cover) {
   const links = [];
   if (repo.homepageUrl) links.push(`<a href="${escape(repo.homepageUrl)}">Live</a>`);
   links.push(`<a href="${escape(repo.url)}">Code</a>`);
   const stack = stackLine(repo);
   return [
     `    <td width="50%" valign="top">`,
-    `      <a href="${escape(repo.homepageUrl || repo.url)}"><img src="${escape(coverImage(repo))}" width="100%" alt="${escape(repo.name)}"></a>`,
+    `      <a href="${escape(repo.homepageUrl || repo.url)}"><img src="${escape(cover)}" width="100%" alt="${escape(repo.name)}"></a>`,
     `      <h3>${escape(repo.name)}</h3>`,
     `      <p>${escape(repo.description || "")}</p>`,
     stack ? `      <p><sub>${escape(stack)}</sub></p>` : null,
@@ -151,13 +151,46 @@ function card(repo) {
   ].filter(Boolean).join("\n");
 }
 
-function projectsSection(repos) {
+async function projectsSection(repos) {
   const featured = repos.filter((r) => topicsOf(r).includes(config.featuredTopic));
   const chosen = (featured.length ? featured : repos.slice(0, config.fallbackProjects)).slice(0, config.maxProjects);
+  const covers = await Promise.all(chosen.map(saveCover));
+  pruneCovers(chosen);
+  const cards = chosen.map((repo, i) => card(repo, covers[i]));
   const rows = [];
-  for (let i = 0; i < chosen.length; i += 2)
-    rows.push(`  <tr>\n${chosen.slice(i, i + 2).map(card).join("\n")}\n  </tr>`);
+  for (let i = 0; i < cards.length; i += 2)
+    rows.push(`  <tr>\n${cards.slice(i, i + 2).join("\n")}\n  </tr>`);
   return `<table>\n${rows.join("\n")}\n</table>`;
+}
+
+// GitHub strips CSS from READMEs, so equal card heights need equal images: each
+// cover is cropped to the same 16:10 size (keeping the top of the screenshot) and
+// stored in covers/. If that fails, the card links the original image instead.
+const COVERS = "covers";
+const coverPath = (repo) => `${COVERS}/${repo.name}.webp`;
+
+async function saveCover(repo) {
+  const src = coverImage(repo);
+  try {
+    const { default: sharp } = await import("sharp");
+    const res = await fetch(src);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    mkdirSync(COVERS, { recursive: true });
+    await sharp(Buffer.from(await res.arrayBuffer()))
+      .resize(1200, 750, { fit: "cover", position: "top" })
+      .webp({ quality: 82 })
+      .toFile(coverPath(repo));
+    return coverPath(repo);
+  } catch (err) {
+    console.warn(`Cover for ${repo.name} not cropped (${err.message}); using ${src}`);
+    return src;
+  }
+}
+
+function pruneCovers(chosen) {
+  if (!existsSync(COVERS)) return;
+  const keep = new Set(chosen.map((r) => `${r.name}.webp`));
+  for (const file of readdirSync(COVERS)) if (!keep.has(file)) rmSync(`${COVERS}/${file}`);
 }
 
 function replaceBetween(text, name, content) {
@@ -172,6 +205,6 @@ const repos = all.filter((r) => !r.isArchived && r.name.toLowerCase() !== config
 
 let readme = readFileSync("README.md", "utf8");
 readme = replaceBetween(readme, "TECH", techSection(repos));
-readme = replaceBetween(readme, "PROJECTS", projectsSection(repos));
+readme = replaceBetween(readme, "PROJECTS", await projectsSection(repos));
 writeFileSync("README.md", readme);
 console.log(`README.md rebuilt from ${repos.length} repositories.`);
