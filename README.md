@@ -42,14 +42,14 @@ Eighteen years of CNC programming taught me to read the spec properly, debug pat
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://brutall100.github.io/petras-dovydaitis/"><img src="https://opengraph.githubassets.com/c00ed6df7c9cd4a2a99243cd80f4d7243526b75f25d1bc237df5d1194f371990/brutall100/petras-dovydaitis" alt="petras-dovydaitis"></a>
+      <a href="https://brutall100.github.io/petras-dovydaitis/"><img src="https://raw.githubusercontent.com/brutall100/petras-dovydaitis/main/docs/screenshot.webp" width="100%" alt="petras-dovydaitis"></a>
       <h3>petras-dovydaitis</h3>
       <p>Petro Dovydaičio vaizdo sveikinimų užsakymo puslapis: kovos plakato dizainas, gyvas ringo prožektorių fonas, demo režimas ir Node + SQLite serveris.</p>
       <p><sub>HTML5</sub></p>
       <p><a href="https://brutall100.github.io/petras-dovydaitis/">Live</a> · <a href="https://github.com/brutall100/petras-dovydaitis">Code</a></p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://brutall100.github.io/petpals-express-mongodb/"><img src="https://opengraph.githubassets.com/f0c29dcf91f84a57d1434c006fbc2846f6deec8ab954d6608eb3807e9bcd1244/brutall100/petpals-express-mongodb" alt="petpals-express-mongodb"></a>
+      <a href="https://brutall100.github.io/petpals-express-mongodb/"><img src="https://raw.githubusercontent.com/brutall100/petpals-express-mongodb/main/docs/screenshot.webp" width="100%" alt="petpals-express-mongodb"></a>
       <h3>petpals-express-mongodb</h3>
       <p>🐾 Cozy pet shelter app: Express + MongoDB REST API with full CRUD, live paw-trail background, light/dark themes and a browser demo mode.</p>
       <p><sub>JavaScript · CSS · HTML5</sub></p>
