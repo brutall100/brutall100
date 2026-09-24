@@ -56,7 +56,9 @@ const QUERY = `query($login: String!) {
     repositories(first: 100, privacy: PUBLIC, ownerAffiliations: OWNER, isFork: false,
                  orderBy: {field: PUSHED_AT, direction: DESC}) {
       nodes {
-        name description url homepageUrl isArchived openGraphImageUrl
+        name description url homepageUrl isArchived
+        defaultBranchRef { name }
+        readme: object(expression: "HEAD:README.md") { ... on Blob { text } }
         repositoryTopics(first: 20) { nodes { topic { name } } }
         languages(first: 10, orderBy: {field: SIZE, direction: DESC}) { edges { size node { name } } }
       }
@@ -114,6 +116,25 @@ function stackLine(repo) {
   return names.slice(0, 5).join(" · ");
 }
 
+// Cover image for a card: the first real image in the repo's own README (usually a
+// screenshot), or GitHub's generated repository card when there is none.
+const NOT_A_SCREENSHOT = /shields\.io|badge|github-readme-stats|\/actions\/workflows\/|skillicons|devicon/i;
+
+function coverImage(repo) {
+  const text = repo.readme?.text ?? "";
+  const found = [...text.matchAll(/!\[[^\]]*\]\(\s*<?([^)\s>]+)|<img[^>]+src=["']([^"']+)["']/gi)]
+    .map((m) => m[1] ?? m[2])
+    .find((src) => !NOT_A_SCREENSHOT.test(src));
+  const [owner, name] = new URL(repo.url).pathname.slice(1).split("/");
+  if (!found) return `https://opengraph.githubassets.com/1/${owner}/${name}`;
+  const blob = found.match(/^https:\/\/github\.com\/([^/]+\/[^/]+)\/blob\/(.+)$/);
+  if (blob) return `https://raw.githubusercontent.com/${blob[1]}/${blob[2]}`;
+  if (/^https?:\/\//.test(found)) return found;
+  const branch = repo.defaultBranchRef?.name ?? "main";
+  const path = found.replace(/^\.?\//, "");
+  return `https://raw.githubusercontent.com/${owner}/${name}/${branch}/${encodeURI(decodeURI(path))}`;
+}
+
 function card(repo) {
   const links = [];
   if (repo.homepageUrl) links.push(`<a href="${escape(repo.homepageUrl)}">Live</a>`);
@@ -121,7 +142,7 @@ function card(repo) {
   const stack = stackLine(repo);
   return [
     `    <td width="50%" valign="top">`,
-    `      <a href="${escape(repo.homepageUrl || repo.url)}"><img src="${escape(repo.openGraphImageUrl)}" alt="${escape(repo.name)}"></a>`,
+    `      <a href="${escape(repo.homepageUrl || repo.url)}"><img src="${escape(coverImage(repo))}" width="100%" alt="${escape(repo.name)}"></a>`,
     `      <h3>${escape(repo.name)}</h3>`,
     `      <p>${escape(repo.description || "")}</p>`,
     stack ? `      <p><sub>${escape(stack)}</sub></p>` : null,
