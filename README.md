@@ -56,6 +56,22 @@ Eighteen years of CNC programming taught me to read the spec properly, debug pat
       <p><a href="https://brutall100.github.io/petpals-express-mongodb/">Live</a> · <a href="https://github.com/brutall100/petpals-express-mongodb">Code</a></p>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://brutall100.github.io/voting-system/"><img src="covers/voting-system.webp" width="100%" alt="voting-system"></a>
+      <h3>voting-system</h3>
+      <p>One person, one vote: a polling app where you can cast, change or withdraw your vote. Node.js + Express 5 + built-in SQLite, with a browser demo mode.</p>
+      <p><sub>JavaScript · CSS · HTML5</sub></p>
+      <p><a href="https://brutall100.github.io/voting-system/">Live</a> · <a href="https://github.com/brutall100/voting-system">Code</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://brutall100.github.io/scrimba-hometown-jonava/"><img src="covers/scrimba-hometown-jonava.webp" width="100%" alt="scrimba-hometown-jonava"></a>
+      <h3>scrimba-hometown-jonava</h3>
+      <p>One-page travel guide to Jonava, Lithuania — responsive landing page with light/dark themes and playful micro-interactions. Scrimba project.</p>
+      <p><sub>CSS · HTML5 · JavaScript</sub></p>
+      <p><a href="https://brutall100.github.io/scrimba-hometown-jonava/">Live</a> · <a href="https://github.com/brutall100/scrimba-hometown-jonava">Code</a></p>
+    </td>
+  </tr>
 </table>
 <!-- PROJECTS:END -->
 
