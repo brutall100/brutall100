@@ -1,0 +1,10 @@
+{
+  "user": "brutall100",
+  "featuredTopic": "featured",
+  "maxProjects": 6,
+  "fallbackProjects": 4,
+  "alwaysTech": [
+    "typescript", "javascript", "react", "nextjs", "tailwindcss",
+    "nodejs", "deno", "express", "postgresql", "prisma", "mongodb", "stripe"
+  ]
+}
