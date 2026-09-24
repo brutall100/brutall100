@@ -12,7 +12,7 @@
     "nuoga-siela": "https://aldas-portfolio.site/img/nuoga-siela.webp"
   },
   "featuredTopic": "featured",
-  "maxProjects": 6,
+  "maxProjects": 10,
   "fallbackProjects": 4,
   "alwaysTech": [
     "typescript",
