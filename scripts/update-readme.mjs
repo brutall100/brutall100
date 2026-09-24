@@ -116,11 +116,13 @@ function stackLine(repo) {
   return names.slice(0, 5).join(" · ");
 }
 
-// Cover image for a card: the first real image in the repo's own README (usually a
+// Cover image for a card: config.covers[name] if set, else the first real image in the repo's own README (usually a
 // screenshot), or GitHub's generated repository card when there is none.
 const NOT_A_SCREENSHOT = /shields\.io|badge|github-readme-stats|\/actions\/workflows\/|skillicons|devicon/i;
 
 function coverImage(repo) {
+  const override = config.covers?.[repo.name];
+  if (override) return override;
   const text = repo.readme?.text ?? "";
   const found = [...text.matchAll(/!\[[^\]]*\]\(\s*<?([^)\s>]+)|<img[^>]+src=["']([^"']+)["']/gi)]
     .map((m) => m[1] ?? m[2])
@@ -191,8 +193,10 @@ async function saveCover(repo) {
       .toFile(coverPath(repo));
     return coverPath(repo);
   } catch (err) {
-    console.warn(`Cover for ${repo.name} not cropped (${err.message}); using ${src}`);
-    return src;
+    // Keep yesterday's crop if there is one, so a flaky download doesn't break the layout.
+    const fallback = existsSync(coverPath(repo)) ? coverPath(repo) : src;
+    console.warn(`Cover for ${repo.name} not cropped (${err.message}); using ${fallback}`);
+    return fallback;
   }
 }
 

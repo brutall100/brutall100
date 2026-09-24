@@ -8,6 +8,9 @@
     "WeekMenu",
     "aldas-portfolio"
   ],
+  "covers": {
+    "nuoga-siela": "https://aldas-portfolio.site/img/nuoga-siela.webp"
+  },
   "featuredTopic": "featured",
   "maxProjects": 6,
   "fallbackProjects": 4,
