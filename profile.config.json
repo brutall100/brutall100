@@ -1,10 +1,28 @@
 {
   "user": "brutall100",
+  "featured": [
+    "vinica-shop",
+    "nuoga-siela",
+    "petpals-express-mongodb",
+    "petras-dovydaitis",
+    "WeekMenu",
+    "aldas-portfolio"
+  ],
   "featuredTopic": "featured",
   "maxProjects": 6,
   "fallbackProjects": 4,
   "alwaysTech": [
-    "typescript", "javascript", "react", "nextjs", "tailwindcss",
-    "nodejs", "deno", "express", "postgresql", "prisma", "mongodb", "stripe"
+    "typescript",
+    "javascript",
+    "react",
+    "nextjs",
+    "tailwindcss",
+    "nodejs",
+    "deno",
+    "express",
+    "postgresql",
+    "prisma",
+    "mongodb",
+    "stripe"
   ]
 }

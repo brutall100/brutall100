@@ -152,7 +152,16 @@ function card(repo, cover) {
 }
 
 async function projectsSection(repos) {
-  const featured = repos.filter((r) => topicsOf(r).includes(config.featuredTopic));
+  // Repos named in config.featured come first, in that order; then any other repo
+  // carrying the featured topic.
+  const byName = new Map(repos.map((r) => [r.name.toLowerCase(), r]));
+  const listed = (config.featured ?? []).map((name) => {
+    const repo = byName.get(name.toLowerCase());
+    if (!repo) console.warn(`Featured repo "${name}" not found among public, non-archived repos.`);
+    return repo;
+  }).filter(Boolean);
+  const tagged = repos.filter((r) => topicsOf(r).includes(config.featuredTopic) && !listed.includes(r));
+  const featured = [...listed, ...tagged];
   const chosen = (featured.length ? featured : repos.slice(0, config.fallbackProjects)).slice(0, config.maxProjects);
   const covers = await Promise.all(chosen.map(saveCover));
   pruneCovers(chosen);
