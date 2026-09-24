@@ -16,11 +16,63 @@ Eighteen years of CNC programming taught me to read the spec properly, debug pat
 
 <!-- Tech stack and projects below are rebuilt daily by .github/workflows/update-readme.yml — edit profile.config.json, not these blocks. -->
 <!-- TECH:START -->
+<p>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
+<img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css&logoColor=white" alt="CSS">
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5">
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+<img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP">
+<img src="https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=sass&logoColor=white" alt="Sass">
+<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React">
+<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js">
+<img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js">
+<img src="https://img.shields.io/badge/Deno-000000?style=flat-square&logo=deno&logoColor=white" alt="Deno">
+<img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express">
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL">
+<img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" alt="Prisma">
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB">
+<img src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white" alt="Stripe">
+</p>
 <!-- TECH:END -->
 
 ## 🚀 Featured projects
 
 <!-- PROJECTS:START -->
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://aldas-portfolio.site/"><img src="https://opengraph.githubassets.com/390f393fce53d6c9df12609182c8dd3d57a87c877af43880632318f801bc006a/brutall100/aldas-portfolio" alt="aldas-portfolio"></a>
+      <h3>aldas-portfolio</h3>
+      <p>Mano portfolio puslapis. </p>
+      <p><sub>HTML5 · CSS · JavaScript</sub></p>
+      <p><a href="https://aldas-portfolio.site/">Live</a> · <a href="https://github.com/brutall100/aldas-portfolio">Code</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/brutall100/petras-dovydaitis"><img src="https://opengraph.githubassets.com/04d81b9022be218940d4e9ce7b3c6c7803372b52bdfff5bce41616fac6c1ea1c/brutall100/petras-dovydaitis" alt="petras-dovydaitis"></a>
+      <h3>petras-dovydaitis</h3>
+      <p>Petro Dovydaičio vaizdo sveikinimų užsakymo puslapis: kovos plakato dizainas, gyvas ringo prožektorių fonas, demo režimas ir Node + SQLite serveris.</p>
+      <p><sub>HTML5</sub></p>
+      <p><a href="https://github.com/brutall100/petras-dovydaitis">Code</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://brutall100.github.io/team-movie-night/"><img src="https://opengraph.githubassets.com/7fcafe7f6ce4f03e54e45e3447ab7ad750d86ac107381c4552c58b4c552552f0/brutall100/team-movie-night" alt="team-movie-night"></a>
+      <h3>team-movie-night</h3>
+      <p>🍿 A playful team movie-night picker: add films, vote, and let the popcorn reel choose tonight's movie.</p>
+      <p><sub>CSS · JavaScript · HTML5</sub></p>
+      <p><a href="https://brutall100.github.io/team-movie-night/">Live</a> · <a href="https://github.com/brutall100/team-movie-night">Code</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://brutall100.github.io/petpals-express-mongodb/"><img src="https://opengraph.githubassets.com/02c8077cc0a2cc0224015c12ce8adaa64ab2a1ed74a6f5b30d4d61bc1f1b0370/brutall100/petpals-express-mongodb" alt="petpals-express-mongodb"></a>
+      <h3>petpals-express-mongodb</h3>
+      <p>🐾 Cozy pet shelter app: Express + MongoDB REST API with full CRUD, live paw-trail background, light/dark themes and a browser demo mode.</p>
+      <p><sub>JavaScript · CSS · HTML5</sub></p>
+      <p><a href="https://brutall100.github.io/petpals-express-mongodb/">Live</a> · <a href="https://github.com/brutall100/petpals-express-mongodb">Code</a></p>
+    </td>
+  </tr>
+</table>
 <!-- PROJECTS:END -->
 
 More on my [portfolio site](https://aldas-portfolio.site/#projects).
