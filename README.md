@@ -41,6 +41,22 @@ Eighteen years of CNC programming taught me to read the spec properly, debug pat
 <table>
   <tr>
     <td width="50%" valign="top">
+      <a href="https://aldas-portfolio.site/"><img src="covers/aldas-portfolio.webp" width="100%" alt="aldas-portfolio"></a>
+      <h3>aldas-portfolio</h3>
+      <p>Mano portfolio puslapis. </p>
+      <p><sub>HTML5 · JavaScript · CSS</sub></p>
+      <p><a href="https://aldas-portfolio.site/">Live</a> · <a href="https://github.com/brutall100/aldas-portfolio">Code</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://brutall100.github.io/petras-dovydaitis/"><img src="covers/petras-dovydaitis.webp" width="100%" alt="petras-dovydaitis"></a>
+      <h3>petras-dovydaitis</h3>
+      <p>Petro Dovydaičio vaizdo sveikinimų užsakymo puslapis: kovos plakato dizainas, gyvas ringo prožektorių fonas, demo režimas ir Node + SQLite serveris.</p>
+      <p><sub>CSS · JavaScript · HTML5</sub></p>
+      <p><a href="https://brutall100.github.io/petras-dovydaitis/">Live</a> · <a href="https://github.com/brutall100/petras-dovydaitis">Code</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <a href="https://vinica-grape-shop.vercel.app"><img src="covers/vinica-grape-shop.webp" width="100%" alt="vinica-grape-shop"></a>
       <h3>vinica-grape-shop</h3>
       <p>Multilingual grape seedling shop: Next.js 16, PostgreSQL, Stripe, live vineyard background and dark mode</p>
@@ -62,22 +78,6 @@ Eighteen years of CNC programming taught me to read the spec properly, debug pat
       <p>Anonymous place to let it out: write what you feel, then burn it or set it adrift. Deno + KV, zero dependencies, privacy by design</p>
       <p><sub>JavaScript · TypeScript · CSS · HTML5</sub></p>
       <p><a href="https://nuogasiela.lt">Live</a> · <a href="https://github.com/brutall100/nuoga-siela">Code</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://aldas-portfolio.site/"><img src="covers/aldas-portfolio.webp" width="100%" alt="aldas-portfolio"></a>
-      <h3>aldas-portfolio</h3>
-      <p>Mano portfolio puslapis. </p>
-      <p><sub>HTML5 · CSS · JavaScript</sub></p>
-      <p><a href="https://aldas-portfolio.site/">Live</a> · <a href="https://github.com/brutall100/aldas-portfolio">Code</a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://brutall100.github.io/petras-dovydaitis/"><img src="covers/petras-dovydaitis.webp" width="100%" alt="petras-dovydaitis"></a>
-      <h3>petras-dovydaitis</h3>
-      <p>Petro Dovydaičio vaizdo sveikinimų užsakymo puslapis: kovos plakato dizainas, gyvas ringo prožektorių fonas, demo režimas ir Node + SQLite serveris.</p>
-      <p><sub>HTML5</sub></p>
-      <p><a href="https://brutall100.github.io/petras-dovydaitis/">Live</a> · <a href="https://github.com/brutall100/petras-dovydaitis">Code</a></p>
     </td>
     <td width="50%" valign="top">
       <a href="https://brutall100.github.io/petpals-express-mongodb/"><img src="covers/petpals-express-mongodb.webp" width="100%" alt="petpals-express-mongodb"></a>
