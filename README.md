@@ -17,9 +17,9 @@ Eighteen years of CNC programming taught me to read the spec properly, debug pat
 <!-- Tech stack and projects below are rebuilt daily by .github/workflows/update-readme.yml — edit profile.config.json, not these blocks. -->
 <!-- TECH:START -->
 <p>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
 <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css&logoColor=white" alt="CSS">
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript">
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5">
 <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP">
 <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React">
@@ -46,6 +46,22 @@ Eighteen years of CNC programming taught me to read the spec properly, debug pat
       <p>Mano portfolio puslapis. </p>
       <p><sub>HTML5 · JavaScript · CSS</sub></p>
       <p><a href="https://aldas-portfolio.site/">Live</a> · <a href="https://github.com/brutall100/aldas-portfolio">Code</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://brutall100.github.io/weekmenu-ai-meal-planner/"><img src="covers/weekmenu-ai-meal-planner.webp" width="100%" alt="weekmenu-ai-meal-planner"></a>
+      <h3>weekmenu-ai-meal-planner</h3>
+      <p>AI meal planner: answer 3 questions, get a whole week's menu with recipes and a shopping list. Deno + Fresh + Claude.</p>
+      <p><sub>TypeScript · CSS · JavaScript</sub></p>
+      <p><a href="https://brutall100.github.io/weekmenu-ai-meal-planner/">Live</a> · <a href="https://github.com/brutall100/weekmenu-ai-meal-planner">Code</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://brutall100.github.io/mot-fashion-shop/"><img src="covers/mot-fashion-shop.webp" width="100%" alt="mot-fashion-shop"></a>
+      <h3>mot-fashion-shop</h3>
+      <p>MOT – women's fashion shop for Lithuania. Next.js 16 store with an admin panel, SEB bank link payments and a live &quot;tailor's studio&quot; design. The demo runs fully in your browser.</p>
+      <p><sub>TypeScript · CSS · JavaScript</sub></p>
+      <p><a href="https://brutall100.github.io/mot-fashion-shop/">Live</a> · <a href="https://github.com/brutall100/mot-fashion-shop">Code</a></p>
     </td>
     <td width="50%" valign="top">
       <a href="https://brutall100.github.io/petras-dovydaitis/"><img src="covers/petras-dovydaitis.webp" width="100%" alt="petras-dovydaitis"></a>
@@ -101,15 +117,6 @@ Eighteen years of CNC programming taught me to read the spec properly, debug pat
       <p>One-page travel guide to Jonava, Lithuania — responsive landing page with light/dark themes and playful micro-interactions. Scrimba project.</p>
       <p><sub>CSS · HTML5 · JavaScript</sub></p>
       <p><a href="https://brutall100.github.io/scrimba-hometown-jonava/">Live</a> · <a href="https://github.com/brutall100/scrimba-hometown-jonava">Code</a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://brutall100.github.io/scrimba-birthday-gift/"><img src="covers/scrimba-birthday-gift.webp" width="100%" alt="scrimba-birthday-gift"></a>
-      <h3>scrimba-birthday-gift</h3>
-      <p>Interactive birthday card — unwrap CSS-drawn gifts to reveal animated surprises and confetti. Scrimba practice project.</p>
-      <p><sub>CSS · HTML5 · JavaScript</sub></p>
-      <p><a href="https://brutall100.github.io/scrimba-birthday-gift/">Live</a> · <a href="https://github.com/brutall100/scrimba-birthday-gift">Code</a></p>
     </td>
   </tr>
 </table>
