@@ -43,12 +43,21 @@ Eighteen years of CNC programming taught me to read the spec properly, debug pat
 <table>
   <tr>
     <td width="50%" valign="top">
+      <a href="https://nuogasiela.lt"><img src="covers/nuoga-siela.webp" width="100%" alt="nuoga-siela"></a>
+      <h3>nuoga-siela</h3>
+      <p>Anonymous place to let it out: write what you feel, then burn it or set it adrift. Deno + KV, zero dependencies, privacy by design</p>
+      <p><sub>JavaScript · TypeScript · CSS · HTML5</sub></p>
+      <p><a href="https://nuogasiela.lt">Live</a> · <a href="https://github.com/brutall100/nuoga-siela">Code</a></p>
+    </td>
+    <td width="50%" valign="top">
       <a href="https://aldas-portfolio.site/"><img src="covers/aldas-portfolio.webp" width="100%" alt="aldas-portfolio"></a>
       <h3>aldas-portfolio</h3>
       <p>Mano portfolio puslapis. </p>
       <p><sub>HTML5 · JavaScript · CSS</sub></p>
       <p><a href="https://aldas-portfolio.site/">Live</a> · <a href="https://github.com/brutall100/aldas-portfolio">Code</a></p>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <a href="https://brutall100.github.io/weekmenu-ai-meal-planner/"><img src="covers/weekmenu-ai-meal-planner.webp" width="100%" alt="weekmenu-ai-meal-planner"></a>
       <h3>weekmenu-ai-meal-planner</h3>
@@ -56,8 +65,6 @@ Eighteen years of CNC programming taught me to read the spec properly, debug pat
       <p><sub>TypeScript · CSS · JavaScript</sub></p>
       <p><a href="https://brutall100.github.io/weekmenu-ai-meal-planner/">Live</a> · <a href="https://github.com/brutall100/weekmenu-ai-meal-planner">Code</a></p>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <a href="https://brutall100.github.io/mot-fashion-shop/"><img src="covers/mot-fashion-shop.webp" width="100%" alt="mot-fashion-shop"></a>
       <h3>mot-fashion-shop</h3>
@@ -65,6 +72,8 @@ Eighteen years of CNC programming taught me to read the spec properly, debug pat
       <p><sub>TypeScript · CSS · JavaScript</sub></p>
       <p><a href="https://brutall100.github.io/mot-fashion-shop/">Live</a> · <a href="https://github.com/brutall100/mot-fashion-shop">Code</a></p>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <a href="https://brutall100.github.io/petras-dovydaitis/"><img src="covers/petras-dovydaitis.webp" width="100%" alt="petras-dovydaitis"></a>
       <h3>petras-dovydaitis</h3>
@@ -72,8 +81,6 @@ Eighteen years of CNC programming taught me to read the spec properly, debug pat
       <p><sub>CSS · JavaScript · HTML5</sub></p>
       <p><a href="https://brutall100.github.io/petras-dovydaitis/">Live</a> · <a href="https://github.com/brutall100/petras-dovydaitis">Code</a></p>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <a href="https://vinica-grape-shop.vercel.app"><img src="covers/vinica-grape-shop.webp" width="100%" alt="vinica-grape-shop"></a>
       <h3>vinica-grape-shop</h3>
@@ -81,21 +88,14 @@ Eighteen years of CNC programming taught me to read the spec properly, debug pat
       <p><sub>TypeScript · CSS · JavaScript</sub></p>
       <p><a href="https://vinica-grape-shop.vercel.app">Live</a> · <a href="https://github.com/brutall100/vinica-grape-shop">Code</a></p>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <a href="https://brutall100.github.io/todo-notebook/"><img src="covers/todo-notebook.webp" width="100%" alt="todo-notebook"></a>
       <h3>todo-notebook</h3>
       <p>A paper-notebook to-do app: React + Express + MongoDB, JWT login, live sticky-note background, light/dark mode. Demo runs in the browser.</p>
       <p><sub>JavaScript · CSS · HTML5</sub></p>
       <p><a href="https://brutall100.github.io/todo-notebook/">Live</a> · <a href="https://github.com/brutall100/todo-notebook">Code</a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://nuogasiela.lt"><img src="covers/nuoga-siela.webp" width="100%" alt="nuoga-siela"></a>
-      <h3>nuoga-siela</h3>
-      <p>Anonymous place to let it out: write what you feel, then burn it or set it adrift. Deno + KV, zero dependencies, privacy by design</p>
-      <p><sub>JavaScript · TypeScript · CSS · HTML5</sub></p>
-      <p><a href="https://nuogasiela.lt">Live</a> · <a href="https://github.com/brutall100/nuoga-siela">Code</a></p>
     </td>
     <td width="50%" valign="top">
       <a href="https://brutall100.github.io/petpals-express-mongodb/"><img src="covers/petpals-express-mongodb.webp" width="100%" alt="petpals-express-mongodb"></a>
