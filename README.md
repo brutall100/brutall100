@@ -44,18 +44,18 @@ Eighteen years of CNC programming taught me to read the spec properly, debug pat
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://nuogasiela.lt"><img src="covers/nuoga-siela.webp" width="100%" alt="nuoga-siela"></a>
-      <h3>nuoga-siela</h3>
-      <p>Anonymous place to let it out: write what you feel, then burn it or set it adrift. Deno + KV, zero dependencies, privacy by design</p>
-      <p><sub>JavaScript · TypeScript · HTML5 · CSS · Shell</sub></p>
-      <p><a href="https://nuogasiela.lt">Live</a> · <a href="https://github.com/brutall100/nuoga-siela">Code</a></p>
-    </td>
-    <td width="50%" valign="top">
       <a href="https://aldas-portfolio.site/"><img src="covers/aldas-portfolio.webp" width="100%" alt="aldas-portfolio"></a>
       <h3>aldas-portfolio</h3>
       <p>Mano portfolio puslapis. </p>
       <p><sub>HTML5 · JavaScript · CSS</sub></p>
       <p><a href="https://aldas-portfolio.site/">Live</a> · <a href="https://github.com/brutall100/aldas-portfolio">Code</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://nuogasiela.lt"><img src="covers/nuoga-siela.webp" width="100%" alt="nuoga-siela"></a>
+      <h3>nuoga-siela</h3>
+      <p>Anonymous place to let it out: write what you feel, then burn it or set it adrift. Deno + KV, zero dependencies, privacy by design</p>
+      <p><sub>JavaScript · TypeScript · HTML5 · CSS · Shell</sub></p>
+      <p><a href="https://nuogasiela.lt">Live</a> · <a href="https://github.com/brutall100/nuoga-siela">Code</a></p>
     </td>
   </tr>
   <tr>
